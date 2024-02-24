@@ -1,0 +1,77 @@
+body{
+  width: 800px;
+  height: 800px;
+  background-color:whitesmoke;
+  margin: 0 auto;
+}
+img{
+ margin: 20px 10px 50px 50px;
+}
+table{
+background-color:white; 
+display: block;
+margin: 20px 0  0 20px;
+
+}
+
+.icon{
+  width: 30px;
+  height: 30px;
+  border-radius: 30%;
+  border: solid 1px blueviolet;
+  margin: 1px ;
+  
+}
+a.link1:hover{
+  margin:10px  10px;
+}
+.log{
+  margin: 9px 10px 30px 150px;
+ 
+}
+.link1,.log p{
+  display:inline-block;
+  vertical-align: middle;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+a#acount{
+  color: black;
+  display: block;
+  margin:0 10px 50px 150px ;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+  
+ 
+  
+} 
+input:not([type="submit"],[type="checkbox"]){
+  display:inline-block;
+  width: 90%;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+[type="submit"]{
+  width: 100px;
+  height: 50px;
+  background-color: steelblue;
+  color: white;
+  border-radius: 13%;
+  border: solid white;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  
+}
+input{
+  border: none;
+  border-bottom: 1px solid #999;
+  padding: 6px 30px;
+}
+h1{
+  font-size: 50px;
+  margin-left: 20px;
+  font: bold;
+}
+
